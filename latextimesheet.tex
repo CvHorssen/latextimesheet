@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lhead{John Doe}
+\rhead{7/15/2013}
+
+\pagestyle{fancy}
+\begin{document}
+
+\centering
+{\huge Timesheet}
+\vspace{10 mm}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{c c c c c}
+Date & Start & End & Time & Task \\ [0.5ex] 
+\hline \\
+7-16 & 00:15 & 03:00 & 2 hours, 45 minutes & Website Updates \\ [1ex]
+7-18 & 16:00 & 16:30 & 30 minutes & Website Updates \\ [1ex]
+7-22 & 01:00 & 01:30 & 30 minutes & Website Updates \\ [1ex]
+& 02:00 & 03:30 & 1 hour, 30 minutes & Website Updates \\ [1ex]
+\hline \\
+Total: & 5 hours, 15 minutes \\[10ex]
+\end{tabular}\
+\end{table}
+
+Compiled: \today \\
+\includegraphics[width=60mm]{sig.png}
+\end{document}
